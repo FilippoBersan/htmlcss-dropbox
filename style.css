@@ -9,6 +9,9 @@ COMMON
   font-family: 'Fredoka', sans-serif;
   font-family: 'Open Sans', sans-serif;
 }
+ul {
+  list-style-type: none;
+}
 
 /* 
 ************
@@ -161,6 +164,201 @@ h1 {
 /* 
 MAIN
  */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main h2 {
+  font-size: 35px;
+}
+
+main li {
+  font-size: 15px;
+}
+
+/* 
+******
+1a section main
+ */
+
+.containerplan {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container-price {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+
+  /* border: 3px dashed green; */
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
+.container-off-1 {
+  display: flex;
+  flex-direction: row;
+
+  /* width: 300px; */
+  /* height: 1500px; 
+
+  /* border: 3px dashed rgb(26, 0, 128); */
+}
+
+.container-off-2 {
+  display: flex;
+  flex-direction: row;
+  /* width: 300px; */
+  /* height: 1000px;
+  /* border: 3px dashed rgb(26, 0, 128); */
+}
+
+.container-off-3 {
+  display: flex;
+  flex-direction: row;
+  /* width: 300px; */
+  /* height: 1000px; */
+  /* border: 3px dashed rgb(26, 0, 128); */
+}
+
+.selec-plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  padding-top: 50px;
+}
+.payment-plan {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.payment-plan-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #0061ef;
+  border-radius: 15px;
+}
+
+.btn-2 {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #d3d3d7;
+  border-radius: 15px;
+}
+/* 
+******
+1a section main
+ */
+
+/* 
+******
+2a section main
+ */
+
+.single {
+  display: flex;
+
+  width: 250px;
+  height: 40px;
+  border: 1px solid #b9b9b9;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 850px;
+  border: 1px solid #b9b9b9;
+
+  gap: 5px;
+}
+
+.name-plan {
+  display: flex;
+
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.name-plan p {
+  color: #b9b9b9;
+}
+
+.info-plan {
+  padding-left: 20px;
+}
+
+.info-plan li {
+  margin-top: 10px;
+}
+
+.buy {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.btn-buy {
+  display: flex;
+  width: 200px;
+  height: 40px;
+  background-color: #0061ef;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.advanced {
+  margin-top: 10px;
+}
+
+.last-part-plan {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+hr {
+  width: 50px;
+
+  margin-top: 30px;
+}
+
+.fa-check {
+  color: #0061ef;
+  font-size: 20px;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-left: 20px;
+  gap: 10px;
+}
 
 /* 
 FOOTER
