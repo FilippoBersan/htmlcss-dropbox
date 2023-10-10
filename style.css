@@ -12,6 +12,9 @@ COMMON
 ul {
   list-style-type: none;
 }
+h4 {
+  font-size: 30px;
+}
 
 /* 
 ************
@@ -199,8 +202,8 @@ main h3 {
 .container-price {
   display: flex;
   flex-direction: row;
-
-  /* border: 3px dashed green; */
+  /* 
+  border: 3px dashed green; */
   padding-top: 50px;
   justify-content: space-between;
 }
@@ -434,7 +437,7 @@ hr {
 
 /* 
 ******
-3a section main pt box partner
+3a section main pt box partner!!!!!!!!!!!!!
  */
 
 .container-2nd-part {
@@ -443,7 +446,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   gap: 30px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin-top: 150px;
 }
 
@@ -453,6 +456,7 @@ hr {
   /* background-color: violet; */
   width: 100%;
   height: 520px;
+  margin-bottom: 100px;
 }
 
 .col-1 {
@@ -483,6 +487,73 @@ hr {
   align-items: center;
 }
 
+/* 
+******
+4a section main pt box business
+ */
+
+.cont-box-row1,
+.cont-box-row2 {
+  width: 1000px;
+  /* border: 1px solid salmon; */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 20px;
+
+  padding-top: 30px;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6 {
+  width: 100%;
+  height: 500px;
+  /* background-color: black; */
+  /* border: salmon solid; */
+}
+
+.row-1 {
+  background-image: url(img/img/business-feature-switching-tools.png);
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.photo2 {
+  background-image: url(img/img/business-feature-send-files-it.png);
+}
+
+.photo3 {
+  background-image: url(img/img/business-feature-coordinate-it.png);
+}
+
+.photo4 {
+  background-image: url(img/img/business-feature-integrations-it.png);
+}
+.photo5 {
+  background-image: url(img/img/business-feature-multi-device.png);
+}
+
+.photo6 {
+  background-image: url(img/img/business-feature-security.png);
+}
+.row-2 {
+  /* border: 1px solid black; */
+  margin-top: 30px;
+}
+
+#container-team {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  /* border: 1px solid black; */
+  width: 50%;
+}
 /* 
 FOOTER
  */
