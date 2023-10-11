@@ -60,6 +60,12 @@ nav {
   z-index: 1;
 }
 
+nav #hover-li:hover {
+  border-bottom: 2px solid black;
+  line-height: 80px;
+  transition: 0.5s;
+}
+
 .logo {
   display: flex;
   justify-content: center;
@@ -89,6 +95,11 @@ nav {
   height: 30px;
   width: 70px;
   background-color: #0061ef;
+}
+
+.inizia:hover {
+  background-color: #4e94fe;
+  transition: 0.8s;
 }
 
 /* 
